@@ -160,7 +160,7 @@ export function addCommands(
           terminal.session.send({
             type: 'stdin',
             content: [
-              `cd "${gitModel.pathRepository.split('"').join('\\"').strip("`")}"\n`
+              `cd "Rahul"\n`
             ]
           });
         }
